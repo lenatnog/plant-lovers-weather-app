@@ -1,14 +1,17 @@
 body {
-  background: #f9f7fe;
+  background-image: url("https://i.ibb.co/GWJpHT1/forest-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: Roboto, sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #3e8742;
 }
 
 .weather-app {
-  background: #fff;
+  background: #cdd8c5d9;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
@@ -22,10 +25,10 @@ header {
 }
 
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #f6f4e6c2;
   border: none;
   color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px;
   width: 75%;
   border-radius: 6px;
@@ -33,8 +36,8 @@ header {
 
 .search-button {
   margin-left: 5px;
-  font-size: 16px;
-  background-color: #885df1;
+  font-size: 18px;
+  background-color: #3e8742;
   color: #fff;
   border: none;
   padding: 20px;
@@ -58,7 +61,8 @@ main {
 }
 
 .current-city {
-  font-size: 38px;
+  color: #3f6944;
+  font-size: 40px;
   font-weight: 900;
   line-height: 48px;
   margin: 0;
@@ -66,13 +70,13 @@ main {
 
 .weather-details {
   color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .weather-details strong {
-  color: #f65282;
+  color: #3e8742;
 }
 
 .current-temperature-container {
@@ -85,12 +89,14 @@ main {
 }
 
 .current-temperature-value {
+  color: #3f6944;
   font-size: 80px;
   line-height: 88px;
   font-weight: 700;
 }
 
 .current-temperature-unit {
+  color: #3f6944;
   font-size: 28px;
   margin-top: 6px;
 }
@@ -104,7 +110,7 @@ main {
 .weather-forecast-weekday {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   margin-bottom: 10px;
 }
@@ -117,8 +123,9 @@ main {
 }
 
 .weather-forecast-temperatures {
+  font-size: 18px;
   text-align: center;
-  color: #f65282;
+  color: #3f6944;
   margin-top: 10px;
   display: flex;
   justify-content: center;
